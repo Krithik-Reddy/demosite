@@ -1,5 +1,5 @@
 *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
     display: flex ; 
@@ -7,9 +7,10 @@ header{
     margin-left: 2rem;
     font-style:normal
 }
-.h1main{
-    font-weight: 100;
+c1{
+    width: 100px;
 }
+
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -17,7 +18,7 @@ ul{
     font-size: x-large;
 }
 li:hover{
-    cursor:-webkit-grab;
+    cursor:pointer;
     color:red;
 }
 nav{
@@ -25,7 +26,7 @@ nav{
     margin-top: 5px;
     
 }
-.bigImage{
+.bigimage{
     width: 95vw;
     margin: 1rem;
 }
@@ -55,7 +56,7 @@ footer{
     padding: 2vm;
     font-size:larger;
     text-align: center;
-    font-weight:10;
+    font-weight:normal;
     color: white;
     background-color: black ;
     height: 4rem;
